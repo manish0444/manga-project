@@ -162,12 +162,12 @@ body{
 .list-item {
   list-style-type: none;
   flex-basis: 50%;
-  min-height: 20px;
+  min-height: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  color: #555;
+  color: #d408d4;
   transform: translateY(0);
   transition: transform 5s ease, opacity 8s ease;
   cursor: pointer;
@@ -572,12 +572,21 @@ body{
 
 .form-box.signup label {
   position: absolute;
-  top: 293px;
+  top: 370px;
   left: 40px;
   font-size: 16px;
   color: #a10cdc;
   pointer-events: none;
   transition: transform 0.2s ease, font-size 0.2s ease, top 0.2s ease;
+}
+/* Style for the username input field */
+.input-field #username {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    text-align: left;
 }
 
 .form-box.signup input[type="text"]:focus + label,

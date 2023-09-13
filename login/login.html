@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="login.css">
+    <title>Anime - website design</title>
+</head>
+<body>
+   <!-- Login form popup -->
+   <div class="form-popup" id="login-popup">
+    <span class="close-btn" id="close-login-btn"></span>
+
+    <div class="form-box login">
+        <div class="form-details">
+            <h2>Welcome Back</h2>
+            <p>Please log in using your personal information to stay connected with us.</p>
+        </div>
+        <div class="form-content">
+            <h2>LOGIN</h2>
+            <form action="https://chat.openai.com/">
+                <div class="input-field">
+                    <input type="text" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <a href="#" class="forgot-pass-link">Forgot password?</a>
+
+                <!-- Forgot Password form popup -->
+<div class="form-popup" id="forgot-pass-popup">
+<span class="close-btn" id="close-forgot-pass-btn">close</span>
+<div class="form-box forgot-pass">
+<div class="form-details">
+<h2>Forgot Password</h2>
+<p>Enter your email to reset your password.</p>
+</div>
+<div class="form-content">
+<h2>RESET PASSWORD</h2>
+<form action="#">
+    <div class="input-field">
+        <input type="text" required>
+        <label>Email</label>
+    </div>
+    <button type="submit">Reset Password</button>
+</form>
+</div>
+</div>
+</div>
+
+                <button type="submit">Log In</button>
+            </form>
+            <div class="bottom-link">
+                Don't have an account?
+                <a href="#" id="signup-link">Signup</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="login.js"> </script>
+</body>
+</html>
