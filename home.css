@@ -8,13 +8,13 @@ body, h1, h2,  ul, li, p {
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: #02291c;
     background: url('../image/zoro.png') no-repeat center center fixed;
     background-size: cover;
    
 }
 
-
+ 
 /* Add styles for the background image container */
 .bg-image {
     position: fixed;
@@ -36,200 +36,7 @@ header {
     text-align: center;
 }
 
-  /* Login Form Box */
-  .form-box.login {
-    background-color: #86d6be;
-    padding: 20px;
-    border-radius: 70px;
-    width: 100%;
-    max-width: 400px;
-    text-align: center;
-    
-   
-  }
-  
-
-
-  .form-box.login h2 {
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    
-
-  }
-  
-  /* Login Form Description */
-  .form-box.login p {
-    font-size: 22px;
-    color: #300798;
-    margin-bottom: 20px;
-
-  }
-  
-  /* Login Form Inputs */
-  .form-box.login .input-field {
-    position: relative;
-    margin-bottom: 13px;
-    color: #0056b3;
-  }
-  
-  .form-box.login input[type="text"],
-  .form-box.login input[type="password"] {
-    width: 90%;
-    padding: 12px;
-    border: 1px solid #314582;
-    border-radius: 40px;
-    font-size: 16px;
-    outline: none;
-    transition: border-color 0.3s;
-  }
-  
-  .form-box.login input[type="text"]:focus,
-  .form-box.login input[type="password"]:focus {
-    border-color: var(--highlight);
-  }
-  
-  .form-box.login label {
-    position: absolute;
-    top: 12px;
-    left: 12px;
-    font-size: 20px;
-    color: #022b21;
-    pointer-events: none;
-    transition: transform 0.2s ease, font-size 0.2s ease, top 0.2s ease;
-  }
-  
-  .form-box.login input[type="text"]:focus + label,
-  .form-box.login input[type="password"]:focus + label,
-  .form-box.login input[type="text"]:not(:placeholder-shown) + label,
-  .form-box.login input[type="password"]:not(:placeholder-shown) + label {
-    transform: translateY(-22px);
-    font-size: 16px;
-    top: 4px;
-    color: var(--highlight);
-  }
-  
-  /* Login Form Button */
-  /* .form-box.login button[type="submit"] {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: var(--highlight);
-    color: #16de0c;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .form-box.login button[type="submit"]:hover {
-    background-color: #09077d;
-  } */
-  
-  /* Login Form Bottom Link */
-  .form-box.login .bottom-link {
-    font-size: 18px;
-  }
-  /* Login Form Popup */
-.form-popup {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(43, 123, 152, 0.7);
-    z-index: 999;
-    justify-content: center;
-    align-items: center; /* Center vertically and horizontally */
-    overflow: auto;
-  }
-  
-  .form-box.login .bottom-link a {
-
-    color: var(--highlight);
-    text-decoration: none;
-    font-weight: 800;
-    margin-left: 4px;
-  }
-  
-  /* ... Rest of the CSS code ... */
-  /* Forgot Password Form Popup */
-.form-box.forgot-pass {
-    background-color: #86d6be;
-    padding: 20px;
-    border-radius: 80px;
-    width: 100%;
-    max-width: 400px;
-    text-align: center;
-  
-}
-
-.form-box.forgot-pass h2 {
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-.form-box.forgot-pass p {
-    font-size: 14px;
-    color: #f60808;
-    margin-bottom: 20px;
-}
-
-.form-box.forgot-pass .input-field {
-    position: relative;
-    margin-bottom: 15px;
-}
-
-.form-box.forgot-pass input[type="text"] {
-    width: 90%;
-    padding: 12px;
-    border: 1px solid #0c0101;
-    border-radius: 40px;
-    font-size: 16px;
-    outline: none;
-    transition: border-color 0.3s;
-}
-
-.form-box.forgot-pass input[type="text"]:focus {
-    border-color: var(--highlight);
-}
-
-.form-box.forgot-pass label {
-    position: absolute;
-    top: 12px;
-    left: 12px;
-    font-size: 16px;
-    color: #80d8a0;
-    pointer-events: none;
-    transition: transform 0.2s ease, font-size 0.2s ease, top 0.2s ease;
-}
-
-.form-box.forgot-pass input[type="text"]:focus + label,
-.form-box.forgot-pass input[type="text"]:not(:placeholder-shown) + label {
-    transform: translateY(-24px);
-    font-size: 12px;
-    top: 4px;
-    color: var(--highlight);
-}
-
-.form-box.forgot-pass button[type="submit"] {
-    display: inline-block;
-    padding: 12px 24px;
-    background-color: var(--highlight);
-    color: #02d30c;
-    border: none;
-    border-radius: 40px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.form-box.forgot-pass button[type="submit"]:hover {
-    background-color: #4946d1;
-}
-
+  /
 
 .close-btn {
     width: 30px;
@@ -254,55 +61,12 @@ header {
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-#search-button {
-    padding: 8px 16px;
-    background-color: #1969be;
-    color: rgb(18, 1, 1);
-    border: none;
-    border-radius: 100px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
 
-#search-button i {
-    margin-right: 8px;
-}
 
 #search-button:hover {
     background-color: #470c8a;
 }
 
-/* .Othersearch{
-    background: white;
-    border-radius: 20px;
-    height: 20px;
-    color: black;
-    padding: 5px 8px;
-    position: relative;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    margin-left: 15px !important;
-}
-.Othersearch button{
-    padding: 7px ;
-    border-radius: 2px;
-    border: 1px solid rgb(255, 255, 255);
-    outline: none;
-    cursor: pointer;
-    margin: 10px;
-    background: rgb(68, 68, 68);
-    color: white;
-}
-
-.search{
-    background: white;
-    border-radius: 20px;
-    height: 20px;
-    color: black;
-    padding: 5px 8px;
-    position: relative;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-} */
 
 
 
@@ -313,34 +77,20 @@ header {
     outline: none;
     cursor: pointer;
     margin: 10px;
-    background: rgb(68, 68, 68);
+    background: rgb(5, 96, 233);
     color: rgb(208, 17, 122);
     
 }
 
 
-.Othersearch input::-webkit-search-cancel-button{
-    -webkit-appearance: none;
-    background: url("../image/times-circle-solid.svg");
-    width: 1em;
-    height: 1em;
-    opacity: .200;
-    cursor: pointer;
-}
 #other-opt input{
     outline: none;
     border: 1px solid rgb(92, 46, 46);
-    border-radius: 100px;
+    border-radius: 10px;
     border: none;
+	
 }
-#other-opt input::-webkit-search-cancel-button{
-    -webkit-appearance: none;
-    background: url("../image/times-circle-solid.svg");
-    width: 1em;
-    height: 1em;
-    opacity: .200;
-    cursor: pointer;
-}
+
 #Menu-Btn{
     position: absolute;
     right: 0;
@@ -352,166 +102,226 @@ header {
 }
 /* Navbar section */
 
-/* Signup Form Popup */
-.form-popup {
-  display: none;
-  position: center;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(89, 175, 173);
-  z-index: 999;
-  justify-content: center;
-  align-items: center;
-  overflow: auto;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+:root {
+    --mainColor: #89216b;
+    --whiteColor: #ffffff;
+    --titleColor: #555555;
+    --labelColor: #333333;
 }
 
-/* Signup Form Box */
-.form-box.signup {
-  background-color: #86d6be;
-  padding: 20px;
-  border-radius: 70px;
-  width: 100%;
-  max-width: 400px;
-  text-align: center;
-  
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
-/* Signup Form Title */
-.form-box.signup h2 {
-  font-size: 22px;
-  font-weight: 100;
-  margin-bottom: 10px;
 
+.wrapper {
+    position: relative;
+    width: 35rem;
+    height: 50rem;
 }
 
-/* Signup Form Description */
-.form-box.signup p {
-  font-size: 20px;
-  color: #1b045b;
-  margin-bottom: 20px;
-  font-style: inherit;
+@media(min-width:540px){
+    .wrapper{
+        width: 40rem;
+    }
 }
 
-/* Signup Form Inputs */
-.form-box.signup .input-field {
-  position: relative;
-  margin-bottom: 15px;
-}
-
-.form-box.signup input[type="text"],
-.form-box.signup input[type="password"] {
-  width: 90%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 40px;
-  font-size: 16px;
-  outline: none;
-  transition: border-color 0.3s;
-}
-
-.form-box.signup input[type="text"]:focus,
-.form-box.signup input[type="password"]:focus {
-  border-color: var(--highlight);
-}
-
-.form-box.signup label {
-  position: absolute;
-  top: 277px;
-  left: 40px;
-  font-size: 16px;
-  color: #a10cdc;
-  pointer-events: none;
-  transition: transform 0.2s ease, font-size 0.2s ease, top 0.2s ease;
-}
-
-.form-box.signup input[type="text"]:focus + label,
-.form-box.signup input[type="password"]:focus + label,
-.form-box.signup input[type="text"]:not(:placeholder-shown) + label,
-.form-box.signup input[type="password"]:not(:placeholder-shown) + label {
-  transform: translateY(-22px);
-  font-size: 16px;
-  top: 4px;
-  color: var(--highlight);
-  left: 16px;
-  font-weight: 400;
-  color: #af0ee0;
-}
-
-/* Signup Form Checkbox */
-.form-box.signup .policy-text {
-  margin-bottom: 20px;
-  text-align: left;
-  font-size: 14px;
-}
-
-.form-box.signup .policy-text input[type="checkbox"] {
-  margin-right: 8px;
-}
-
-/* Signup Form Button */
-.form-box.signup button[type="submit"] {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: var(--highlight);
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.form-box.signup button[type="submit"]:hover {
-  background-color: #4946d1;
-}
-
-/* Signup Form Bottom Link */
-.form-box.signup .bottom-link {
-  font-size: 14px;
-}
-
-.form-box.signup .bottom-link a {
-  color: var(--highlight);
-  text-decoration: none;
-  font-weight: 600;
-  margin-left: 4px;
-}
-/* Responsive styles can be added for different screen sizes */
-.form-popup {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    justify-content: center;
-    align-items: center;
-    z-index: 999;
-}
-
-.close-btn {
+.wrapper .form-container {
     position: absolute;
-    top: 20px;
-    right: 20px;
-    cursor: pointer;
-}
-/* ... (Previous CSS code) ... */
-
-/* Additional styles for the signup form popup */
-#signup-popup {
-    display: none;
-    position: fixed;
     top: 0;
     left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    justify-content: center;
-    align-items: center;
-    z-index: 999;
+    background-color: var(--whiteColor);
+    border-radius: .5rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.wrapper .form-container form h2 {
+    font-size: 3rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--titleColor);
+}
+
+.wrapper .form-container form .form-group {
+    position: relative;
+    width: 32rem;
+    margin: 3rem 0;
+}
+
+.wrapper .form-container form .form-group i,
+.wrapper .form-container form .form-group label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    color: var(--labelColor);
+    padding: 0 .5rem;
+    pointer-events: none;
+    transition: all .5s ease;
+}
+
+.wrapper .form-container form .form-group i {
+    left: .5rem;
+}
+
+.wrapper .form-container form .form-group label {
+    left: 2.5rem
+}
+
+.wrapper .form-container form .form-group input {
+    width: 100%;
+    height: 4rem;
+    padding: 0 1rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    border: .1rem solid var(--labelColor);
+    font-size: 1.6rem;
+    color: var(--labelColor);
+    background: transparent;
+}
+
+form .form-group input:focus~label,
+form .form-group input:valid~label,
+form .form-group input:focus~i,
+form .form-group input:valid~i {
+    top: 0 !important;
+    font-size: 1.2rem !important;
+    background-color: var(--whiteColor);
+}
+
+.wrapper .form-container form .forgot-pass {
+    margin: -1.5rem 0 1.5rem;
+}
+
+.wrapper .form-container form .forgot-pass a {
+    color: var(--labelColor);
+    text-decoration: none;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    transform: all .5s ease;
+}
+
+.wrapper .form-container form .forgot-pass a:hover {
+    color: var(--mainColor);
+}
+
+.wrapper .form-container form .btn {
+    background: linear-gradient(to right, #da4453, var(--mainColor));
+    color: var(--whiteColor);
+    text-transform: capitalize;
+    width: 100%;
+    height: 4rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    box-shadow: 0 .2rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+.wrapper .form-container form .link {
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--labelColor);
+    margin: 2.5rem 0;
+}
+
+.wrapper .form-container form .link a {
+    text-transform: capitalize;
+    color: var(--mainColor);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all .5s ease;
+}
+
+.wrapper .form-container form .link a:hover {
+    color: #da4453;
+}
+
+.wrapper .sign-up {
+    transform: rotate(7deg);
+}
+
+.wrapper.animated-signin .form-container.sign-in {
+    animation: signin-flip 1s ease-in-out forwards;
+}
+
+@keyframes signin-flip {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-50rem) scale(1.1);
+    }
+
+    100% {
+        transform: translateX(0) rotate(7deg) scale(1);
+    }
+}
+
+.wrapper.animated-signin .form-container.sign-up {
+    animation: rotatecard .7s ease-in-out forwards;
+    animation-delay: .3s;
+}
+
+@keyframes rotatecard {
+    0% {
+        transform: rotate(7deg);
+    }
+
+    100% {
+        transform: rotate(0);
+        z-index: 1;
+    }
+}
+
+.wrapper.animated-signup .form-container.sign-up {
+    animation: signup-flip 1s ease-in-out forwards;
+}
+
+@keyframes signup-flip {
+    0% {
+        transform: translateX(0);
+        z-index: 1;
+    }
+
+    50% {
+        transform: translateX(50rem) scale(1.1);
+    }
+
+    100% {
+        transform: translateX(0) rotate(7deg) scale(1);
+    }
+}
+
+.wrapper.animated-signup .form-container.sign-in {
+    transform: rotate(7deg);
+    animation: rotatecard .7s ease-in-out forwards;
+    animation-delay: .3s;
+}
+
+@keyframes rotatecard {
+    0% {
+        transform: rotate(7deg);
+    }
+
+    100% {
+        transform: rotate(0);
+        z-index: 1;
+    }
 }
 
 header h1 {
@@ -531,7 +341,7 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #3297a8;
     font-weight: bold;
     transition: color 0.3s; /* Add a smooth color transition effect */
 }
@@ -567,4 +377,3 @@ footer {
     padding: 0.5rem 0;
 }
 /* Login Form Popup */
-
